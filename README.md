@@ -77,18 +77,31 @@ The primary analysis focuses on posted wait-time patterns because posted wait-ti
 ## Key Findings
 
 Avatar Flight of Passage was the strongest wait-time pressure point.
+
 Avatar Flight of Passage had the highest average posted wait time at approximately 136 minutes. It also had a high-wait rate of 99.20%, meaning nearly every valid posted wait-time record was 45 minutes or longer.
+
 Na'vi River Journey was the second-largest wait-time pressure point.
+
 Na'vi River Journey had an average posted wait time of approximately 75 minutes and a high-wait rate of 85.11%.
+
 Pandora attractions created the clearest guest experience pressure.
+
 Avatar Flight of Passage and Na'vi River Journey stood apart from the rest of the park, suggesting that Pandora attractions were the strongest drivers of long posted waits in the dataset.
+
 Wait times peaked around midday.
+
 Average posted waits were lowest in the early operating hours, increased sharply after 9 AM, and reached their highest point around noon.
+
 Day of week was not a major driver of wait-time differences.
+
 Average posted waits were fairly consistent across the week, suggesting that attraction type and time of day were stronger drivers than weekday alone.
+
 Seasonal patterns were visible.
+
 December had the highest average posted wait time, while September had the lowest. Higher wait times were also visible in several vacation and holiday-adjacent periods.
+
 High-wait risk was concentrated in a small group of attractions.
+
 Avatar Flight of Passage, Na'vi River Journey, DINOSAUR, Expedition Everest, and Kali River Rapids accounted for many of the highest wait-time pressure patterns in the dataset.
 
 ## Visual Highlights
@@ -144,32 +157,50 @@ This visual highlights seasonal wait-time patterns, with December showing the hi
 ## Business Recommendations
 
 Prioritize operational planning around Pandora attractions.
+
 Avatar Flight of Passage and Na'vi River Journey consistently showed the highest wait-time pressure and should be treated as primary guest experience risk areas.
+
 Use early-morning hours to distribute demand.
+
 Since posted waits were lowest early in the day, guests could be encouraged to visit high-demand attractions earlier through planning tools, itinerary suggestions, or app messaging.
+
 Monitor midday wait-time pressure closely.
+
 Wait times peaked around noon, making late morning through early afternoon an important period for staffing, queue management, and guest communication.
+
 Prepare for seasonal demand increases.
+
 December had the highest average posted wait time, while other elevated periods appeared around vacation and holiday travel months.
+
 Use both high-wait rate and high-wait count.
+
 High-wait rate shows how frequently an attraction crossed the long-wait threshold, while high-wait count shows the total volume of long-wait observations. Together, these metrics provide a stronger view of guest experience risk.
+
 Separate attraction downtime from standard wait-time analysis.
+
 Invalid posted wait-time values were flagged and removed from standard wait-time calculations so that unavailable or offline attraction records did not distort average wait metrics.
 
 ## Project Files
 
 notebooks/01_data_cleaning_and_wait_time_analysis.ipynb
+
 Main Python notebook for loading, combining, cleaning, analyzing, and visualizing Animal Kingdom wait-time data.
+
 visuals/
 Exported charts from the Python analysis.
+
 data/raw/
 Documentation for the original raw dataset files and source information.
+
 data/processed/
 Documentation for the cleaned dataset output.
+
 sql/
 Planned SQL analysis files.
+
 dashboard/
 Planned Tableau or BI dashboard files and screenshots.
+
 reports/
 Planned executive summaries and business-facing recommendations.
 
@@ -178,8 +209,13 @@ Planned executive summaries and business-facing recommendations.
 Future additions to this project may include:
 
 SQL analysis using SQLite
+
 Tableau dashboard summarizing key wait-time KPIs
+
 Predictive modeling for high-wait conditions
+
 Additional analysis of actual wait-time records
+
 Posted-versus-actual wait-time accuracy analysis if a matched dataset is added
+
 Comparison across other Disney parks if similar datasets are added
