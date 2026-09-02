@@ -1,15 +1,22 @@
 # Raw Data
 
-This folder is reserved for the original raw Disney Animal Kingdom wait-time dataset files.
+This folder is reserved for the original raw Disney Animal Kingdom wait-time CSV files.
 
-The raw CSV files are not included in this repository until the dataset files are downloaded and reviewed.
+The raw CSV files are not included in this repository because some files are too large for standard GitHub browser upload and should be downloaded directly from the original source.
 
-Expected source:
-TouringPlans Disney Animal Kingdom Wait Times dataset
+Dataset source:
+TouringPlans Disney Animal Kingdom Wait Times GitHub repository
 
-Expected contents may include attraction-level CSV files such as:
-- Expedition Everest wait-time data
-- Kilimanjaro Safaris wait-time data
-- Avatar Flight of Passage wait-time data
-- Na'vi River Journey wait-time data
-- DINOSAUR wait-time data
+Source link:
+https://github.com/TouringPlans/DisneyAnimalKingdomWaitTimes
+
+Expected local files may include attraction-level CSV files such as:
+- AK01.csv
+- AK07.csv
+- AK11.csv
+- AK14.csv
+- AK18.csv
+- AK85.csv
+- AK86.csv
+
+To recreate the analysis, download the dataset from the source repository and place the CSV files in this folder locally.
