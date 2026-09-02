@@ -43,6 +43,8 @@ https://github.com/TouringPlans/DisneyAnimalKingdomWaitTimes
 ```
 
 ## Repository Structure
+
+```text
 disney-animal-kingdom-wait-time-analytics/
 │
 ├── dashboard/
@@ -54,6 +56,7 @@ disney-animal-kingdom-wait-time-analytics/
 ├── sql/
 ├── visuals/
 └── README.md
+```
 
 ## Analysis Summary
 The main notebook loads and combines multiple attraction-level CSV files into one dataset, maps attraction file codes to readable attraction names, cleans invalid wait-time values, creates time-based fields, and builds guest experience KPI fields.
