@@ -59,5 +59,4 @@ Uses SQLite and SQL queries to analyze the cleaned Animal Kingdom wait-time data
 
 Future notebooks may include:
 
-
-- `03_wait_time_prediction_model.ipynb`
+- '03_wait_time_pressure_simulation.ipynb'
