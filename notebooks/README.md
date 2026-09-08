@@ -39,6 +39,24 @@ Key steps include:
 - Identifying monthly and seasonal wait-time patterns
 - Summarizing SQL-based key findings
 
+### `03_wait_time_pressure_simulation.ipynb`
+
+This notebook simulates how adding a new attraction could reduce guest experience pressure at Disney Animal Kingdom by redistributing a percentage of high-wait demand away from the park's highest-pressure attractions.
+
+The goal of this notebook is not to predict exact future wait times, but to model possible operational impact under different demand redistribution scenarios.
+
+Key steps include:
+
+- Loading the cleaned Animal Kingdom wait-time dataset
+- Defining baseline high-wait pressure
+- Identifying target attractions for demand redistribution
+- Building 5%, 10%, 15%, and 20% redistribution scenarios
+- Estimating reductions in high-wait records
+- Comparing simulated high-wait rates against the baseline
+- Analyzing attraction-level impact under the 10% scenario
+- Visualizing estimated scenario impact
+- Summarizing key findings and business recommendations
+
 ## Notes
 
 The raw CSV files are not included directly in this repository because some files are too large for standard GitHub browser upload. To reproduce the notebook, download the original dataset from the TouringPlans Disney Animal Kingdom Wait Times source repository and place the attraction-level CSV files in the local `data/raw/` folder.
@@ -55,8 +73,6 @@ Loads and combines attraction-level CSV files, cleans wait-time data, creates gu
 
 Uses SQLite and SQL queries to analyze the cleaned Animal Kingdom wait-time dataset. This notebook calculates overall KPIs, attraction-level wait-time summaries, high-wait record counts, hourly wait-time patterns, day-of-week trends, and monthly seasonal patterns.
 
-## Planned Notebooks
+### `03_wait_time_pressure_simulation.ipynb`
 
-Future notebooks may include:
-
-- '03_wait_time_pressure_simulation.ipynb'
+Scenario simulation notebook that estimates how adding a new attraction could reduce high-wait exposure by redistributing demand away from the park's highest-pressure attractions.
