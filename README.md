@@ -160,6 +160,30 @@ This visual compares average posted wait times by day of week and shows that wai
 
 This visual highlights seasonal wait-time patterns, with December showing the highest average posted wait time and September showing the lowest.
 
+### Simulated High-Wait Records by Scenario
+
+<p align="center">
+  <img src="visuals/simulated_high_wait_records_by_scenario.png" alt="Simulated High-Wait Records by Scenario" width="850">
+</p>
+
+This visual compares estimated total high-wait records after each new-attraction demand redistribution scenario. The baseline line shows the original level of high-wait pressure before the simulated impact.
+
+### Estimated Reduction in High-Wait Records by Scenario
+
+<p align="center">
+  <img src="visuals/estimated_reduction_by_scenario.png" alt="Estimated Reduction in High-Wait Records by Scenario" width="850">
+</p>
+
+This visual shows the estimated reduction in high-wait records under each demand redistribution scenario, ranging from 5% to 20%.
+
+### Attraction-Level Impact Under 10% Redistribution Scenario
+
+<p align="center">
+  <img src="visuals/attraction_level_impact_10pct_scenario.png" alt="Attraction-Level Impact Under 10% Redistribution Scenario" width="850">
+</p>
+
+This visual shows which target attractions would see the largest estimated reduction in high-wait records under the 10% demand redistribution scenario.
+
 ## Business Recommendations
 
 Prioritize operational planning around Pandora attractions.
@@ -192,8 +216,15 @@ notebooks/01_data_cleaning_and_wait_time_analysis.ipynb
 
 Main Python notebook for loading, combining, cleaning, analyzing, and visualizing Animal Kingdom wait-time data.
 
+notebooks/02_sql_wait_time_analysis.ipynb
+  SQL notebook using SQLite to calculate wait-time KPIs, attraction-level summaries, high-wait risk metrics, and time-based wait-time patterns.
+
+notebooks/03_wait_time_pressure_simulation.ipynb
+
+Scenario simulation notebook that estimates how adding a new attraction could reduce high-wait exposure by redistributing demand away from the park's highest-pressure attractions.
+
 visuals/
-Exported charts from the Python analysis.
+Exported charts from the Python analysis, SQL analysis, and simulation model.
 
 data/raw/
 Documentation for the original raw dataset files and source information.
@@ -202,7 +233,7 @@ data/processed/
 Documentation for the cleaned dataset output.
 
 sql/
-Planned SQL analysis files.
+SQL documentation and planned standalone SQL scripts.
 
 dashboard/
 Planned Tableau or BI dashboard files and screenshots.
@@ -212,15 +243,3 @@ Planned executive summaries and business-facing recommendations.
 
 ## Future Work
 
-Future additions to this project may include:
-
-
-Tableau dashboard summarizing key wait-time KPIs
-
-Predictive modeling for high-wait conditions
-
-Additional analysis of actual wait-time records
-
-Posted-versus-actual wait-time accuracy analysis if a matched dataset is added
-
-Comparison across other Disney parks if similar datasets are added
