@@ -27,6 +27,8 @@ This project is designed to answer the following questions:
 - Matplotlib
 - Google Colab / Jupyter Notebook
 - GitHub
+- SQL
+- SQLite
 
 ## Dataset
 
@@ -212,7 +214,6 @@ Planned executive summaries and business-facing recommendations.
 
 Future additions to this project may include:
 
-SQL analysis using SQLite
 
 Tableau dashboard summarizing key wait-time KPIs
 
