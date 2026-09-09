@@ -223,23 +223,24 @@ notebooks/03_wait_time_pressure_simulation.ipynb
 
 Scenario simulation notebook that estimates how adding a new attraction could reduce high-wait exposure by redistributing demand away from the park's highest-pressure attractions.
 
-visuals/
+- 'visuals/'
 Exported charts from the Python analysis, SQL analysis, and simulation model.
 
-data/raw/
+- 'data/raw/'
 Documentation for the original raw dataset files and source information.
 
-data/processed/
+- 'data/processed/'
 Documentation for the cleaned dataset output.
 
-sql/
+- 'sql/'
 SQL documentation and planned standalone SQL scripts.
 
-dashboard/
+- 'dashboard/'
 Planned Tableau or BI dashboard files and screenshots.
 
-reports/
-Planned executive summaries and business-facing recommendations.
+- 'reports/'
+This folder contains business-facing summary reports for the Disney Animal Kingdom Wait Time & Guest Experience Analytics project.
 
-## Future Work
+- `reports/animal_kingdom_wait_time_summary.md`  
+Executive-style project report summarizing the business problem, methodology, key findings, scenario simulation results, and operational recommendations.
 
